@@ -1,4 +1,5 @@
 Only desktops, site is not adaptive
+The site was built in about 8 hours
 
 # Getting Started with Create React App
 
