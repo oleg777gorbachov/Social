@@ -1,0 +1,86 @@
+main {
+  padding: 8px 16px;
+  transition: all 0.2s;
+}
+
+.main {
+  transform: translate(-33%, 0%);
+  width: 150%;
+}
+
+span {
+  word-break: break-all;
+}
+
+.call {
+  background-color: rgb(49, 46, 46);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.options-icon {
+  color: white;
+  font-size: 54px;
+  margin-bottom: 70px;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.avatar {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.delete-message {
+  font-size: 10px;
+  color: red;
+}
+
+.sendMessage {
+  display: flex;
+  gap: 8px;
+  position: fixed;
+  bottom: 10px;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.chat {
+  height: calc(100% - 280px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.window-chat {
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+}
+
+.you {
+  align-self: flex-end;
+  text-align: end;
+  margin-bottom: 10px;
+}
+
+.companion span {
+  background-color: rgba(182, 233, 248, 0.35);
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
+
+.nothing {
+  align-self: center;
+}

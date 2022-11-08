@@ -1,0 +1,24 @@
+.App {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas:
+    "header header header"
+    "aside main main";
+}
+
+header {
+  grid-area: header;
+  max-height: 64px;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+main {
+  grid-area: main;
+}

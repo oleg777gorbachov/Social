@@ -1,0 +1,60 @@
+.aside {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  height: 100vh;
+  border-right: 1px solid grey;
+  overflow: auto;
+  transition: all 0.2s;
+}
+
+.aside-off {
+  transform: translate(-100%, 0px);
+}
+
+p {
+  color: grey;
+}
+
+.contact {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  transition: all 0.3s;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact:hover {
+  background-color: rgba(182, 233, 248, 0.35);
+}
+
+.contact-btn {
+  background-color: rgba(182, 233, 248, 0.35);
+  padding: 6px;
+  font-size: 24px;
+  border-radius: 8px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background-color: white;
+}
+
+.contact-btns {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

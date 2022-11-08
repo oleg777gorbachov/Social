@@ -1,0 +1,28 @@
+header {
+  padding: 10px;
+  background-color: rgba(182, 233, 248, 0.35);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+
+nav h2 {
+  margin-right: 150px;
+}
